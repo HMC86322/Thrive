@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Thrive VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-11-25 14:34+0800\n"
+"POT-Creation-Date: 2026-11-29 00:41+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -71,7 +71,7 @@ msgstr ""
 msgid "ACHIEVEMENTS_LOAD_FAILED_DESCRIPTION"
 msgstr ""
 
-#: ../src/gui_common/menus/AchievementsView.cs:40
+#: ../src/gui_common/menus/AchievementsView.cs:49
 msgid "ACHIEVEMENTS_TOTAL"
 msgstr ""
 
@@ -1298,7 +1298,7 @@ msgstr ""
 msgid "CHROMATOPHORE_PROCESSES_DESCRIPTION"
 msgstr ""
 
-#: ../src/microbe_stage/systems/MicrobeDeathSystem.cs:133
+#: ../src/microbe_stage/systems/MicrobeDeathSystem.cs:134
 msgid "CHUNK_CELL_CORPSE_PART"
 msgstr ""
 
@@ -2304,8 +2304,8 @@ msgstr ""
 msgid "DEADZONE_CONFIGURATION"
 msgstr ""
 
-#: ../src/microbe_stage/systems/MicrobeDeathSystem.cs:380
-#: ../src/microbe_stage/systems/MicrobeDeathSystem.cs:389
+#: ../src/microbe_stage/systems/MicrobeDeathSystem.cs:388
+#: ../src/microbe_stage/systems/MicrobeDeathSystem.cs:395
 msgid "DEATH"
 msgstr ""
 
@@ -2360,7 +2360,7 @@ msgstr ""
 msgid "DELETE"
 msgstr ""
 
-#: ../src/saving/SaveManagerGUI.cs:229
+#: ../src/saving/SaveManagerGUI.cs:231
 msgid "DELETE_ALL_OLD_SAVE_WARNING_2"
 msgstr ""
 
@@ -2388,7 +2388,7 @@ msgstr ""
 msgid "DELETE_SELECTED_SAVES_PROMPT"
 msgstr ""
 
-#: ../src/saving/SaveManagerGUI.cs:219
+#: ../src/saving/SaveManagerGUI.cs:221
 msgid "DELETE_SELECTED_SAVE_WARNING"
 msgstr ""
 
@@ -3579,7 +3579,7 @@ msgstr ""
 msgid "GAMEPLAY_BASICS_TITLE"
 msgstr ""
 
-#: ../src/microbe_stage/Spawners.cs:1232
+#: ../src/microbe_stage/Spawners.cs:1235
 msgid "GAMETE_CELL_ENTITY_NAME"
 msgstr ""
 
@@ -5661,7 +5661,7 @@ msgstr ""
 #: ../src/engine/DebugOverlays.PerformanceMetrics.cs:168
 #: ../src/gui_common/menus/OptionsMenu.cs:1823
 #: ../src/gui_common/menus/OptionsMenu.cs:2810
-#: ../src/saving/SaveManagerGUI.cs:116
+#: ../src/saving/SaveManagerGUI.cs:117
 msgid "MIB_VALUE"
 msgstr ""
 
@@ -7662,7 +7662,7 @@ msgstr ""
 msgid "POSITION_NUMBER"
 msgstr ""
 
-#: ../src/auto-evo/selection_pressure/PredationEffectivenessPressure.cs:137
+#: ../src/auto-evo/selection_pressure/PredationEffectivenessPressure.cs:162
 msgid "PREDATION_FOOD_SOURCE"
 msgstr ""
 
@@ -7806,7 +7806,7 @@ msgstr ""
 msgid "QUIT_BUTTON_TOOLTIP"
 msgstr ""
 
-#: ../src/general/PauseMenu.cs:503
+#: ../src/general/PauseMenu.cs:586
 msgid "QUIT_GAME_WARNING"
 msgstr ""
 
@@ -7934,7 +7934,7 @@ msgstr ""
 
 #: ../src/microbe_stage/systems/MicrobeReproductionSystem.cs:590
 #: ../src/microbe_stage/systems/MicrobeReproductionSystem.cs:600
-#: ../src/multicellular_stage/systems/GameteSystem.cs:387
+#: ../src/multicellular_stage/systems/GameteSystem.cs:400
 #: ../src/multicellular_stage/systems/MulticellularGrowthSystem.cs:402
 msgid "REPRODUCED"
 msgstr ""
@@ -8122,7 +8122,7 @@ msgstr ""
 msgid "RETURN_TO_MENU_TOOLTIP"
 msgstr ""
 
-#: ../src/auto-evo/AutoEvoExploringTool.tscn:701 ../src/general/PauseMenu.cs:484
+#: ../src/auto-evo/AutoEvoExploringTool.tscn:701 ../src/general/PauseMenu.cs:567
 #: ../src/gui_common/menus/PlanetCustomizerTool.tscn:194
 msgid "RETURN_TO_MENU_WARNING"
 msgstr ""
@@ -8270,11 +8270,11 @@ msgstr ""
 msgid "SAVE_AUTOSAVE"
 msgstr ""
 
-#: ../src/saving/SaveListItem.cs:257
+#: ../src/saving/SaveListItem.cs:266
 msgid "SAVE_CHEATS_USED"
 msgstr ""
 
-#: ../src/saving/SaveList.cs:240
+#: ../src/saving/SaveList.cs:324
 msgid "SAVE_DELETE_WARNING"
 msgstr ""
 
@@ -10169,11 +10169,11 @@ msgstr ""
 msgid "UNDERWATERCAVE"
 msgstr ""
 
-#: ../src/general/world_effects/patch_events/UnderwaterVentEruptionEvent.cs:128
+#: ../src/general/world_effects/patch_events/UnderwaterVentEruptionEvent.cs:113
 msgid "UNDERWATER_VENT_ERUPTION"
 msgstr ""
 
-#: ../src/general/world_effects/patch_events/UnderwaterVentEruptionEvent.cs:134
+#: ../src/general/world_effects/patch_events/UnderwaterVentEruptionEvent.cs:119
 msgid "UNDERWATER_VENT_ERUPTION_IN"
 msgstr ""
 
