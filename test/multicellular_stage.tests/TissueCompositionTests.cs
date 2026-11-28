@@ -77,6 +77,23 @@ public class TissueCompositionTests
     }
 
     [TestCase]
+    public void TissueComposition_HandlesAutoEvoCloneWithoutGameplayCells()
+    {
+        var mover = CreateCellType("Mover", "flagellum");
+        var defender = CreateCellType("Defender", "pilus");
+
+        var species = SimulationCacheTestFixtures.CreateMulticellular(4005, "tissue",
+            (mover, new Hex(0, 0)), (defender, new Hex(1, 0)));
+        var clone = species.Clone(true, false);
+
+        var composition = TissueComposition.FromMulticellular(clone);
+
+        AssertThat(composition.TissueCount).IsEqual(2);
+        AssertThat(composition.CellTypeCount).IsEqual(2);
+        AssertThat(composition.HasDivisionOfLabour).IsTrue();
+    }
+
+    [TestCase]
     public void TissueComposition_UsesMetaballsOfMacroscopicBody()
     {
         var mover = CreateCellType("Mover", "cytoplasm", "flagellum");

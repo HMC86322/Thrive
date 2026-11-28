@@ -81,7 +81,9 @@ public class TissueComposition
         var occupiedHexes = new List<HashSet<Hex>>(cells.Count);
         var temporaryStorage = new List<Hex>();
 
-        var layout = species.ModifiableGameplayCells;
+        // Auto-evo clones deliberately leave the gameplay layout null while still copying the editor layout. The
+        // hex component calculation only depends on the cell template, so an empty layout is enough here.
+        var layout = species.ModifiableGameplayCells ?? new CellLayout<CellTemplate>();
         var hexOwners = new Dictionary<Hex, int>();
 
         foreach (var cell in cells)
